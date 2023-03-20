@@ -28,6 +28,7 @@ public class DomeniuInternet {
         }
     }
 
+
     @Override
     public String toString() {
         return "DomeniuInternet{" +

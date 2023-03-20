@@ -1,6 +1,7 @@
 package main;
 
 import clase.Administrator;
+import clase.Inregistrare;
 import clase.Soare;
 import singletone_registry.DomeniuInternet;
 
@@ -18,5 +19,10 @@ public class Main {
 
         System.out.println(soare1.toString());
         System.out.println(soare2.toString());
+
+        Inregistrare inregistrare1 = Inregistrare.getInstance("Alexandru", "12345", "0745698712");
+        Inregistrare inregistrare2 = Inregistrare.getInstance("Ditan", "34589", "0778921712");
+        System.out.println(inregistrare1.toString());
+        System.out.println(inregistrare2.toString());
     }
 }
