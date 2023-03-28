@@ -1,4 +1,4 @@
-package prototype.main;
+package prototype;
 
 import prototype.Autobuz;
 import prototype.MijlocTransport;
