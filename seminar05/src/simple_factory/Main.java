@@ -1,4 +1,4 @@
-package simple_factory.main;
+package simple_factory;
 
 import simple_factory.clase.Factory;
 import simple_factory.clase.PersonalSpital;

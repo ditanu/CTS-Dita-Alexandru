@@ -9,7 +9,7 @@ public class DomeniuInternet {
 
     private static Map<String, DomeniuInternet> domeniiInternet = new HashMap<>();
 
-    public DomeniuInternet(String nume, int anInregistrare) {
+    private DomeniuInternet(String nume, int anInregistrare) {
         this.nume = nume;
         this.anInregistrare = anInregistrare;
     }

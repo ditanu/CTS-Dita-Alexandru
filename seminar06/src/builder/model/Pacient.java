@@ -23,7 +23,7 @@ public class Pacient {
         this.halatPentruInterior = halatPentruInterior;
     }
 
-    public void setNume(String nume) {
+    protected void setNume(String nume) {
         this.nume = nume;
     }
 

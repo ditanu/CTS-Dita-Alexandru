@@ -8,7 +8,6 @@ public class Anestezist implements PersonalSpital {
         this.nume = nume;
         this.nrPacienti = nrPacienti;
     }
-
     @Override
     public void descriere() {
         System.out.println("Anestezistul: " + this.nume + " " + this.nrPacienti);

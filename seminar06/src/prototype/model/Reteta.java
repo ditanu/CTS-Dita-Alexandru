@@ -13,9 +13,13 @@ public class Reteta implements Prototype {
         this.nume = nume;
         this.gramajMedicament = gramajMedicament;
         float suma = 0;
-        for (Float val : solutii.values()) {
-            suma+=val;
+
+        for(Map.Entry<String, Float> solutie : solutii.entrySet() ) {
+            suma+=solutie.getValue();
         }
+//        for (Float val : solutii.values()) {
+//            suma+=val;
+//        }
 
         if (this.gramajMedicament == suma) {
             this.solutii = solutii;
@@ -41,12 +45,12 @@ public class Reteta implements Prototype {
         return reteta;
     }
 
-//    @Override
-//    public String toString() {
-//        return "Reteta{" +
-//                "nume='" + nume + '\'' +
-//                ", gramajMedicament=" + gramajMedicament +
-//                ", solutii=" + solutii +
-//                '}';
-//    }
+    @Override
+    public String toString() {
+        return "Reteta{" +
+                "nume='" + nume + '\'' +
+                ", gramajMedicament=" + gramajMedicament +
+                ", solutii=" + solutii +
+                '}';
+    }
 }
