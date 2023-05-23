@@ -10,7 +10,7 @@ public class Bancomat {
     }
 
     public IStare getStare() {
-        return stare;
+        return this.stare;
     }
 
     public void setStare(IStare stare) {

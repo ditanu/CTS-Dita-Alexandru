@@ -11,7 +11,6 @@ public class Main {
         IBilet bilet2 = new Bilet("Mircea", "Romania", "Spania");
         IBilet bilet3 = new Bilet("Mircea", "Qatar", "Islanda");
 
-
         bilet.printareBilet();
         bilet2.printareBilet();
         bilet3.printareBilet();

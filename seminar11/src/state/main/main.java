@@ -1,6 +1,7 @@
 package state.main;
 
 import state.classes.Bancomat;
+import state.classes.StareAreCard;
 
 public class main {
     public static void main(String[] args) {

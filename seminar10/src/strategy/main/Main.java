@@ -11,6 +11,7 @@ public class Main {
         Spectator s3 = new Spectator("Gheorghe");
 
         jandarm.verificaSpectator(s1);
+
         jandarm.setModVerificare(new VerificareVIP());
         jandarm.verificaSpectator(s2);
 

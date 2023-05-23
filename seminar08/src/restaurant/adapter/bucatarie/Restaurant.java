@@ -1,11 +1,9 @@
 package restaurant.adapter.bucatarie;
 
-import restaurant.adapter.bar.ISoftBar;
-
-public class Bucatarie implements ISoftRestaurant {
+public class Restaurant implements ISoftRestaurant {
     private String numeBucatar;
 
-    public Bucatarie(String numeBucatar) {
+    public Restaurant(String numeBucatar) {
         this.numeBucatar = numeBucatar;
     }
 

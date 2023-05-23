@@ -16,6 +16,8 @@ public class Main {
 
         banca1.adaugaObserver(client1);
 
+        banca1.adaugaObserver(client2);
+
         banca1.actualizeazaAplicatia();
 
         banca1.adaugaTipCreditNou();

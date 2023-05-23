@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Seminarii.iml" filepath="$PROJECT_DIR$/Seminarii.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design_patterns_comportamentale/design_patterns_comportamentale.iml" filepath="$PROJECT_DIR$/design_patterns_comportamentale/design_patterns_comportamentale.iml" />
       <module fileurl="file://$PROJECT_DIR$/design_patterns_creationale_test/design_patterns_creationale_test.iml" filepath="$PROJECT_DIR$/design_patterns_creationale_test/design_patterns_creationale_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design_patterns_structurale_test/design_patterns_structurale_test.iml" filepath="$PROJECT_DIR$/design_patterns_structurale_test/design_patterns_structurale_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar02/seminar02.iml" filepath="$PROJECT_DIR$/seminar02/seminar02.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar04/seminar04.iml" filepath="$PROJECT_DIR$/seminar04/seminar04.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar05/seminar05.iml" filepath="$PROJECT_DIR$/seminar05/seminar05.iml" />
@@ -13,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/seminar10/seminar10.iml" filepath="$PROJECT_DIR$/seminar10/seminar10.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar11/seminar11.iml" filepath="$PROJECT_DIR$/seminar11/seminar11.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar12/seminar12.iml" filepath="$PROJECT_DIR$/seminar12/seminar12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seminar13/seminar13.iml" filepath="$PROJECT_DIR$/seminar13/seminar13.iml" />
     </modules>
   </component>
 </project>

@@ -11,8 +11,9 @@ public class Bilet implements IBilet{
         this.numeEchipa2 = numeEchipa2;
     }
 
+    @Override
     public String getNumeEchipa1() {
-        return numeEchipa1;
+        return this.numeEchipa1;
     }
 
     @Override
