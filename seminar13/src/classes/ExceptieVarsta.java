@@ -1,4 +1,4 @@
-package Persoana;
+package classes;
 
 public class ExceptieVarsta extends RuntimeException{
 

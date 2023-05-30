@@ -1,7 +1,7 @@
 package test;
 
-import Persoana.IPersoana;
-import Persoana.Persoana;
+import classes.IPersoana;
+import classes.Persoana;
 import org.junit.jupiter.api.Test;
 
 
